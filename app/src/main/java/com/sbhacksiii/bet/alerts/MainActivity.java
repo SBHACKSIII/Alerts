@@ -7,7 +7,6 @@ import android.util.Log;
 import com.esri.arcgisruntime.mapping.ArcGISMap;
 import com.esri.arcgisruntime.mapping.Basemap;
 import com.esri.arcgisruntime.mapping.view.MapView;
-import com.sbhacksiii.bet.alerts.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,7 +18,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mMapView = (MapView) findViewById(R.id.mapView);
-        ArcGISMap map = new ArcGISMap(Basemap.Type.TOPOGRAPHIC, 34.056295, -117.195800, 16);
+        ArcGISMap map = new ArcGISMap(Basemap.Type.TOPOGRAPHIC, 34.4102863, -119.8525907, 16);
+        // home coordinates 34.4102863,-119.8525907
         mMapView.setMap(map);
 
 
