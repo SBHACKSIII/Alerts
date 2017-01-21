@@ -4,8 +4,8 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "com.sbhacksiii.bet.alerts"
-        minSdkVersion 21
+        applicationId "com.example.eduardo.sbhacksiii"
+        minSdkVersion 22
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -21,6 +21,9 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    //Esri dependency
+    compile 'com.esri.arcgisruntime:arcgis-android:100.0.0'
+
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
