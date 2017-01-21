@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "893542463779",
+    "firebase_url": "https://alerts-597be.firebaseio.com",
+    "project_id": "alerts-597be",
+    "storage_bucket": "alerts-597be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893542463779:android:d71387f595592151",
+        "android_client_info": {
+          "package_name": "com.sbhacksiii.bet.alerts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893542463779-v32o80qoljpeekp60ce9csu6s40ka7ju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxr-Z3xjmC9BWSehP-8GyEU7M-OqVNwuA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
